@@ -1,0 +1,63 @@
+.bio-table table,
+.bio-table th,
+.bio-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.month-row th:nth-child(2),
+.month-row th:first-child {
+    border-right: 1px solid #fff;
+}
+
+@media (max-width: 600px) {
+    .bio-table {
+        overflow-x: auto;
+    }
+}
+
+.title h1{
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 900 !important;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-container{
+    background: #f7f4f4;
+    padding: 100px;
+    padding-top: 0px;
+    padding-right: 0px;
+    text-align: -webkit-center;
+}
+
+.year{
+    background: #f7f4f4;
+    padding: 0px;
+    margin: 0 auto;
+    padding-left: 1px;
+    margin-left: 0px;
+    padding-left: 155px;
+}
+
+.month h5{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 155px;
+}
+
+.year h5{
+    background: rgb(0, 174, 205);
+    padding: 10px;
+    margin: 0 auto;
+    padding-left: 10px;
+    position: inherit;
+    width: 10%;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 0%;
+}
